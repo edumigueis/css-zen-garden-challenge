@@ -9,12 +9,21 @@
 
 p {
   text-indent: 24px;
+  color: #191919;
+  text-align: justify;
+}
+
+a {
+  color: #191919;
+  font-weight: 500;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   background: #f6efe5;
   color: #191919;
+  overflow-x: hidden;
+  counter-reset: li;
 }
 
 .intro {
@@ -24,6 +33,11 @@ body {
 .intro header {
   height: 100vh;
   width: 50%;
+  max-height: 1000px;
+}
+
+.intro header h1 {
+  display: none;
 }
 
 .intro header h2 {
@@ -43,6 +57,7 @@ body {
   top: 100px;
   right: 100px;
   height: 150vh;
+  max-height: 1300px;
   z-index: 20;
   width: 500px;
 }
@@ -174,7 +189,7 @@ body {
 
 .main.supporting .benefits {
   padding: 2rem 2rem 18rem 2rem;
-  width: 300px;
+  width: 350px;
   background: #ffffff;
   position: absolute;
   right: 20%;
@@ -197,6 +212,20 @@ body {
   font-weight: normal;
   font-size: 17px;
   line-height: 24px;
+}
+
+.main.supporting .benefits::after {
+  content: "";
+  width: 270px;
+  right: -90px;
+  bottom: -40px;
+  background-image: url(bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 40;
+  display: inline-block;
+  min-height: 300px;
+  position: absolute;
 }
 
 .main.supporting .requirements {
@@ -240,7 +269,7 @@ body {
 
 .main.supporting .requirements::before {
   content: "";
-  background: url(https://i.pinimg.com/originals/41/cb/eb/41cbeb1f39398395118b243c8dc12470.png);
+  background: url(bg-3.jpg);
   z-index: 100000;
   left: 40px;
   top: 0;
@@ -253,5 +282,162 @@ body {
   display: inline-block;
   background-position: center;
   background-size: cover;
+}
+
+.sidebar .wrapper {
+  background: #ADA0F9;
+  position: relative;
+  clear: both;
+  padding: 0 40px;
+  float: left;
+}
+
+.sidebar .wrapper div {
+  clear: both;
+  float: left;
+}
+
+.design-selection {
+  width: 100%;
+}
+
+.design-selection .select {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  padding-top: 40px;
+  margin-left: 10px;
+}
+
+.design-selection nav {
+  width: 100vw;
+  padding-top: 20px;
+}
+
+.design-selection nav ul {
+  list-style: none;
+  width: calc(100% - 80px);
+}
+
+.design-selection nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  vertical-align: middle;
+  margin: 10px;
+  padding: 20px;
+}
+
+.design-selection nav ul li::before {
+  counter-increment: li;
+  content: counter(li);
+  font-size: 40px;
+  padding: 0 80% 0 0;
+}
+
+.design-selection nav ul li a {
+  width: 100%;
+  display: inline-block;
+}
+
+.design-archives {
+  width: 100vw;
+  margin-left: -40px;
+  background: #FEA5C9;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.design-archives h3 {
+  color: #fbfbfb;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  margin-left: 10px;
+}
+
+.design-archives ul,
+.design-archives li {
+  list-style: none;
+}
+
+.design-archives ul {
+  margin-left: 10px;
+}
+
+.design-archives ul li a {
+  font-weight: 600;
+  color: #fbfbfb;
+  line-height: 22px;
+}
+
+.zen-resources {
+  width: 100vw;
+  margin-left: -40px;
+  padding: 40px;
+  background: #FEA5C9;
+  position: relative;
+}
+
+.zen-resources h3 {
+  color: #fbfbfb;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  margin-left: 10px;
+}
+
+.zen-resources ul,
+.zen-resources li {
+  list-style: none;
+}
+
+.zen-resources ul {
+  margin-left: 10px;
+}
+
+.zen-resources ul li a {
+  font-weight: 600;
+  color: #fbfbfb;
+  line-height: 22px;
+}
+
+.zen-resources::after {
+  content: "";
+  width: 400px;
+  right: 40px;
+  top: -100px;
+  background-image: url(footer-illustration.svg);
+  background-size: cover;
+  background-position: center;
+  z-index: 40;
+  display: inline-block;
+  min-height: 300px;
+  position: absolute;
+}
+
+footer {
+  position: absolute;
+  left: 25px;
+  top: 100px;
+}
+
+footer a {
+  display: inline-block;
+  width: 100%;
+  line-height: 25px;
+  color: #FA583C;
+  font-size: 20px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
