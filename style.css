@@ -59,6 +59,18 @@ body {
   }
 }
 
+@media screen and (max-width: 460px) {
+  .intro header h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .intro header h2 br {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1160px) {
   .intro header {
     width: 100%;
@@ -200,6 +212,15 @@ body {
   }
 }
 
+@media screen and (max-width: 660px) {
+  .extra1 {
+    width: 100%;
+    height: 35vh;
+    min-height: unset;
+    top: 35vh;
+  }
+}
+
 .main.supporting {
   position: relative;
 }
@@ -229,6 +250,12 @@ body {
   top: 180px;
 }
 
+@media screen and (max-width: 760px) {
+  .main.supporting .explanation h3 {
+    margin-right: 100px;
+  }
+}
+
 .main.supporting .explanation p {
   width: 500px;
   clear: both;
@@ -247,6 +274,13 @@ body {
   margin-top: 120px !important;
   padding: 10rem 3rem 0.4rem 3rem;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 660px) {
+  .main.supporting .explanation p {
+    width: 100%;
+    margin: 0 !important;
+  }
 }
 
 .main.supporting .participation {
@@ -620,6 +654,12 @@ footer {
   top: 100px;
 }
 
+@media screen and (max-width: 660px) {
+  footer {
+    top: 40px;
+  }
+}
+
 footer a {
   display: inline-block;
   width: 100%;
@@ -627,5 +667,11 @@ footer a {
   color: #fa583c;
   font-size: 20px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 660px) {
+  footer a {
+    width: auto !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
