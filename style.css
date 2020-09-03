@@ -34,6 +34,7 @@ body {
   height: 100vh;
   width: 50%;
   max-height: 1000px;
+  min-height: 450px;
 }
 
 .intro header h1 {
@@ -50,6 +51,21 @@ body {
   padding: 3.1em 0.5em 0 0.5em;
 }
 
+@media screen and (max-width: 1160px) {
+  .intro header h2 {
+    width: 100%;
+    padding: 80px 40px;
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .intro header {
+    width: 100%;
+    height: 70vh;
+  }
+}
+
 .intro .summary {
   background: #ffffff;
   position: absolute;
@@ -62,8 +78,20 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 1160px) {
+  .intro .summary {
+    position: relative;
+    width: 100%;
+    padding: 40px 60px;
+    max-height: 250px;
+    top: 0;
+    margin-top: 0;
+    right: 0;
+  }
+}
+
 .intro .summary p {
-  width: 390px !important;
+  width: 390px;
   margin-top: 60vh;
   font-family: Montserrat;
   font-style: normal;
@@ -71,12 +99,28 @@ body {
   font-size: 17px;
   line-height: 22px;
   text-align: justify;
+  text-indent: 0 !important;
+}
+
+@media screen and (max-width: 1160px) {
+  .intro .summary p {
+    margin-top: 0 !important;
+    padding-top: 40px;
+    width: calc(100% - 120px);
+    padding-left: 20%;
+  }
 }
 
 .preamble {
   background: #F6EFE5;
   padding: 8em 10% 13em 10%;
   position: relative;
+}
+
+@media screen and (max-width: 1160px) {
+  .preamble {
+    padding: 7em 20px 12em 20px;
+  }
 }
 
 .preamble h3 {
@@ -98,12 +142,27 @@ body {
   text-align: justify;
 }
 
+@media screen and (max-width: 1160px) {
+  .preamble p {
+    width: calc(100% - 80px);
+  }
+}
+
 .preamble p:nth-child(4) {
   position: absolute;
   right: 150px;
-  width: 390px !important;
+  width: 390px;
   top: 8em;
   z-index: 22;
+}
+
+@media screen and (max-width: 1160px) {
+  .preamble p:nth-child(4) {
+    width: calc(100% - 80px);
+    position: relative;
+    right: 0;
+    top: 0;
+  }
 }
 
 .extra1 {
@@ -116,6 +175,16 @@ body {
   background: url(main-image.jpg);
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (max-width: 1160px) {
+  .extra1 {
+    height: 70vh;
+    top: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 450px;
+  }
 }
 
 .main.supporting {
@@ -197,6 +266,12 @@ body {
   margin-top: 3em;
 }
 
+@media screen and (max-width: 1160px) {
+  .main.supporting .benefits {
+    right: 11%;
+  }
+}
+
 .main.supporting .benefits h3 {
   font-family: Montserrat;
   font-style: normal;
@@ -243,6 +318,16 @@ body {
   margin-top: 40px;
 }
 
+@media screen and (max-width: 1160px) {
+  .main.supporting .requirements {
+    padding: 8rem 2rem 8rem 350px;
+    -webkit-column-count: 1;
+            column-count: 1;
+    -webkit-column-gap: 0;
+            column-gap: 0;
+  }
+}
+
 .main.supporting .requirements h3 {
   position: absolute;
   font-family: Montserrat;
@@ -273,6 +358,12 @@ body {
   padding-top: 80px;
 }
 
+@media screen and (max-width: 1160px) {
+  .main.supporting .requirements p:nth-child(4) {
+    padding: 0 !important;
+  }
+}
+
 .main.supporting .requirements::before {
   content: "";
   background: url(bg-3.jpg);
@@ -288,6 +379,14 @@ body {
   display: inline-block;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (max-width: 1160px) {
+  .main.supporting .requirements::before {
+    left: 0;
+    width: 310px;
+    height: 600px;
+  }
 }
 
 .sidebar .wrapper {
