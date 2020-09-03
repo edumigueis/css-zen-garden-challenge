@@ -240,6 +240,7 @@ body {
   -webkit-column-gap: 20px;
           column-gap: 20px;
   position: relative;
+  margin-top: 40px;
 }
 
 .main.supporting .requirements h3 {
@@ -257,6 +258,11 @@ body {
   height: fit-content;
   -webkit-column-break-inside: avoid;
           break-inside: avoid;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
 }
 
 .main.supporting .requirements p:nth-child(2) {

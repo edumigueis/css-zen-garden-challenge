@@ -33,9 +33,11 @@ body {
         height: 100vh;
         width: 50%;
         max-height: 1000px;
-        h1{
+
+        h1 {
             display: none;
         }
+
         h2 {
             font-family: Montserrat;
             font-style: normal;
@@ -211,18 +213,18 @@ body {
             line-height: 24px;
         }
 
-        &::after{
+        &::after {
             content: "";
-        width: 270px;
-        right: -90px;
-        bottom: -40px;
-        background-image: url(bg-2.jpg);
-        background-size: cover;
-        background-position: center;
-        z-index: 40;
-        display: inline-block;
-        min-height: 300px;
-        position: absolute;
+            width: 270px;
+            right: -90px;
+            bottom: -40px;
+            background-image: url(bg-2.jpg);
+            background-size: cover;
+            background-position: center;
+            z-index: 40;
+            display: inline-block;
+            min-height: 300px;
+            position: absolute;
         }
     }
 
@@ -236,6 +238,7 @@ body {
         column-count: 2;
         column-gap: 20px;
         position: relative;
+        margin-top: 40px;
 
         h3 {
             position: absolute;
@@ -247,9 +250,13 @@ body {
         }
 
         p {
-
             height: fit-content;
             break-inside: avoid;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 22px;
 
             &:nth-child(2) {
                 margin-top: 80px;
@@ -426,11 +433,12 @@ body {
     }
 }
 
-footer{
+footer {
     position: absolute;
     left: 25px;
     top: 100px;
-    a{
+
+    a {
         display: inline-block;
         width: 100%;
         line-height: 25px;
