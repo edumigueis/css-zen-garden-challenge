@@ -90,6 +90,12 @@ body {
   }
 }
 
+@media screen and (max-width: 725px) {
+  .intro .summary {
+    max-height: 350px;
+  }
+}
+
 .intro .summary p {
   width: 390px;
   margin-top: 60vh;
@@ -108,6 +114,13 @@ body {
     padding-top: 40px;
     width: calc(100% - 120px);
     padding-left: 20%;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .intro .summary p {
+    padding-left: 20px;
+    width: calc(100% - 20px);
   }
 }
 
@@ -299,7 +312,7 @@ body {
   background-position: center;
   z-index: 40;
   display: inline-block;
-  min-height: 300px;
+  min-height: 310px;
   position: absolute;
 }
 
@@ -325,6 +338,12 @@ body {
             column-count: 1;
     -webkit-column-gap: 0;
             column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .main.supporting .requirements {
+    padding: 6rem 20px !important;
   }
 }
 
@@ -389,6 +408,12 @@ body {
   }
 }
 
+@media screen and (max-width: 675px) {
+  .main.supporting .requirements::before {
+    display: none;
+  }
+}
+
 .sidebar .wrapper {
   background: #ada0f9;
   position: relative;
@@ -435,6 +460,12 @@ body {
   vertical-align: middle;
   margin: 10px;
   padding: 20px;
+}
+
+@media screen and (max-width: 675px) {
+  .design-selection nav ul li {
+    width: calc(100% - 30px);
+  }
 }
 
 .design-selection nav ul li::before {
@@ -529,6 +560,12 @@ body {
   display: inline-block;
   min-height: 300px;
   position: absolute;
+}
+
+@media screen and (max-width: 675px) {
+  .zen-resources::after {
+    display: none;
+  }
 }
 
 footer {
