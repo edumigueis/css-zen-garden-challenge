@@ -19,7 +19,7 @@ a {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #f6efe5;
   color: #191919;
   overflow-x: hidden;
@@ -27,7 +27,7 @@ body {
 }
 
 .intro {
-  background: #ADA0F9;
+  background: #ada0f9;
 }
 
 .intro header {
@@ -112,7 +112,7 @@ body {
 }
 
 .preamble {
-  background: #F6EFE5;
+  background: #f6efe5;
   padding: 8em 10% 13em 10%;
   position: relative;
 }
@@ -201,7 +201,7 @@ body {
 }
 
 .main.supporting .explanation h3 {
-  background: #ADA0F9;
+  background: #ada0f9;
   padding: 0.3rem 0.5rem;
   right: 0;
   position: absolute;
@@ -390,7 +390,7 @@ body {
 }
 
 .sidebar .wrapper {
-  background: #ADA0F9;
+  background: #ada0f9;
   position: relative;
   clear: both;
   padding: 0 40px;
@@ -452,7 +452,7 @@ body {
 .design-archives {
   width: 100vw;
   margin-left: -40px;
-  background: #FEA5C9;
+  background: #fea5c9;
   padding: 40px;
   margin-top: 50px;
 }
@@ -487,7 +487,7 @@ body {
   width: 100vw;
   margin-left: -40px;
   padding: 40px;
-  background: #FEA5C9;
+  background: #fea5c9;
   position: relative;
 }
 
@@ -541,7 +541,7 @@ footer a {
   display: inline-block;
   width: 100%;
   line-height: 25px;
-  color: #FA583C;
+  color: #fa583c;
   font-size: 20px;
   font-weight: bold;
 }

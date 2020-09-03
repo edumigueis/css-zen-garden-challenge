@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ a {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     background: #f6efe5;
     color: #191919;
     overflow-x: hidden;
@@ -27,7 +27,7 @@ body {
 }
 
 .intro {
-    background: #ADA0F9;
+    background: #ada0f9;
 
     header {
         height: 100vh;
@@ -104,7 +104,7 @@ body {
 }
 
 .preamble {
-    background: #F6EFE5;
+    background: #f6efe5;
     padding: 8em 10% 13em 10%;
     position: relative;
 
@@ -152,7 +152,6 @@ body {
 }
 
 .extra1 {
-
     position: absolute;
     width: 36%;
     height: 50%;
@@ -184,7 +183,7 @@ body {
         background-size: cover;
 
         h3 {
-            background: #ADA0F9;
+            background: #ada0f9;
             padding: 0.3rem 0.5rem;
             right: 0;
             position: absolute;
@@ -323,7 +322,6 @@ body {
 
             &:nth-child(2) {
                 margin-top: 80px;
-
             }
 
             &:nth-child(4) {
@@ -361,7 +359,7 @@ body {
 
 .sidebar {
     .wrapper {
-        background: #ADA0F9;
+        background: #ada0f9;
         position: relative;
         clear: both;
         padding: 0 40px;
@@ -424,7 +422,7 @@ body {
 .design-archives {
     width: 100vw;
     margin-left: -40px;
-    background: #FEA5C9;
+    background: #fea5c9;
     padding: 40px;
     margin-top: 50px;
 
@@ -461,7 +459,7 @@ body {
     width: 100vw;
     margin-left: -40px;
     padding: 40px;
-    background: #FEA5C9;
+    background: #fea5c9;
     position: relative;
 
     h3 {
@@ -516,7 +514,7 @@ footer {
         display: inline-block;
         width: 100%;
         line-height: 25px;
-        color: #FA583C;
+        color: #fa583c;
         font-size: 20px;
         font-weight: bold;
     }
