@@ -260,6 +260,12 @@ body {
   float: left;
 }
 
+@media screen and (max-width: 955px) {
+  .main.supporting .participation {
+    width: 100%;
+  }
+}
+
 .main.supporting .participation h3 {
   font-family: Montserrat;
   font-style: normal;
@@ -285,6 +291,16 @@ body {
   }
 }
 
+@media screen and (max-width: 955px) {
+  .main.supporting .benefits {
+    width: 100%;
+    padding: 2rem 3rem;
+    clear: both;
+    position: relative;
+    right: 0;
+  }
+}
+
 .main.supporting .benefits h3 {
   font-family: Montserrat;
   font-style: normal;
@@ -302,6 +318,19 @@ body {
   line-height: 24px;
 }
 
+@media screen and (max-width: 955px) {
+  .main.supporting .benefits p {
+    width: 100%;
+    padding-right: 33%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .main.supporting .benefits p {
+    padding-right: 0 !important;
+  }
+}
+
 .main.supporting .benefits::after {
   content: "";
   width: 280px;
@@ -314,6 +343,23 @@ body {
   display: inline-block;
   min-height: 310px;
   position: absolute;
+}
+
+@media screen and (max-width: 955px) {
+  .main.supporting .benefits::after {
+    width: 28%;
+    right: 0;
+    top: 40px;
+    height: 300px;
+    min-height: auto;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .main.supporting .benefits::after {
+    display: none !important;
+  }
 }
 
 .main.supporting .requirements {

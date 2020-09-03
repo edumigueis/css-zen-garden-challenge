@@ -234,7 +234,9 @@ body {
         line-height: 24px;
         padding: 46px 50px;
         float: left;
-
+        @media screen and (max-width: 955px){
+            width: 100%;
+        }
         h3 {
             font-family: Montserrat;
             font-style: normal;
@@ -257,7 +259,13 @@ body {
         @media screen and (max-width: 1160px) {
             right: 11%;
         }
-
+        @media screen and (max-width: 955px){
+            width: 100%;
+            padding: 2rem 3rem;
+            clear: both;
+            position: relative;
+            right: 0;
+        }
         h3 {
             font-family: Montserrat;
             font-style: normal;
@@ -273,6 +281,13 @@ body {
             font-weight: normal;
             font-size: 17px;
             line-height: 24px;
+            @media screen and (max-width: 955px){
+                width: 100%;
+                padding-right: 33%;
+            }
+            @media screen and (max-width: 525px){
+                padding-right: 0 !important;
+            }
         }
 
         &::after {
@@ -287,6 +302,17 @@ body {
   display: inline-block;
   min-height: 310px;
   position: absolute;
+  @media screen and (max-width: 955px){
+    width: 28%;
+    right: 0;
+    top: 40px;
+    height: 300px;
+    min-height: auto;
+    right: 20px;
+}
+@media screen and (max-width: 525px){
+    display: none !important;
+}
         }
     }
 
