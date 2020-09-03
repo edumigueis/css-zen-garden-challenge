@@ -291,7 +291,7 @@ body {
 
 .main.supporting .benefits::after {
   content: "";
-  width: 270px;
+  width: 280px;
   right: -90px;
   bottom: -40px;
   background-image: url(./images/bg-2.jpg);
