@@ -81,9 +81,11 @@ body {
             margin-top: 0;
             right: 0;
         }
-        @media screen and (max-width: 725px){
+
+        @media screen and (max-width: 725px) {
             max-height: 350px;
         }
+
         p {
             width: 390px;
             margin-top: 60vh;
@@ -101,7 +103,8 @@ body {
                 width: calc(100% - 120px);
                 padding-left: 20%;
             }
-            @media screen and (max-width: 725px){
+
+            @media screen and (max-width: 725px) {
                 padding-left: 20px;
                 width: calc(100% - 20px);
             }
@@ -234,9 +237,11 @@ body {
         line-height: 24px;
         padding: 46px 50px;
         float: left;
-        @media screen and (max-width: 955px){
+
+        @media screen and (max-width: 955px) {
             width: 100%;
         }
+
         h3 {
             font-family: Montserrat;
             font-style: normal;
@@ -259,13 +264,15 @@ body {
         @media screen and (max-width: 1160px) {
             right: 11%;
         }
-        @media screen and (max-width: 955px){
+
+        @media screen and (max-width: 955px) {
             width: 100%;
             padding: 2rem 3rem;
             clear: both;
             position: relative;
             right: 0;
         }
+
         h3 {
             font-family: Montserrat;
             font-style: normal;
@@ -281,38 +288,42 @@ body {
             font-weight: normal;
             font-size: 17px;
             line-height: 24px;
-            @media screen and (max-width: 955px){
+
+            @media screen and (max-width: 955px) {
                 width: 100%;
                 padding-right: 33%;
             }
-            @media screen and (max-width: 525px){
+
+            @media screen and (max-width: 525px) {
                 padding-right: 0 !important;
             }
         }
 
         &::after {
             content: "";
-  width: 280px;
-  right: -90px;
-  bottom: -40px;
-  background-image: url(./images/bg-2.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 40;
-  display: inline-block;
-  min-height: 310px;
-  position: absolute;
-  @media screen and (max-width: 955px){
-    width: 28%;
-    right: 0;
-    top: 40px;
-    height: 300px;
-    min-height: auto;
-    right: 20px;
-}
-@media screen and (max-width: 525px){
-    display: none !important;
-}
+            width: 280px;
+            right: -90px;
+            bottom: -40px;
+            background-image: url(./images/bg-2.jpg);
+            background-size: cover;
+            background-position: center;
+            z-index: 40;
+            display: inline-block;
+            min-height: 310px;
+            position: absolute;
+
+            @media screen and (max-width: 955px) {
+                width: 28%;
+                right: 0;
+                top: 40px;
+                height: 300px;
+                min-height: auto;
+                right: 20px;
+            }
+
+            @media screen and (max-width: 525px) {
+                display: none !important;
+            }
         }
     }
 
@@ -333,9 +344,11 @@ body {
             column-count: 1;
             column-gap: 0;
         }
-        @media screen and (max-width: 675px){
+
+        @media screen and (max-width: 675px) {
             padding: 6rem 20px !important;
         }
+
         h3 {
             position: absolute;
             font-family: Montserrat;
@@ -387,7 +400,8 @@ body {
                 width: 310px;
                 height: 600px;
             }
-            @media screen and (max-width: 675px){
+
+            @media screen and (max-width: 675px) {
                 display: none;
             }
         }
@@ -439,9 +453,11 @@ body {
                 vertical-align: middle;
                 margin: 10px;
                 padding: 20px;
-                @media screen and (max-width: 675px){
+
+                @media screen and (max-width: 675px) {
                     width: calc(100% - 30px);
                 }
+
                 &::before {
                     counter-increment: li;
                     content: counter(li);
@@ -541,7 +557,8 @@ body {
         display: inline-block;
         min-height: 300px;
         position: absolute;
-        @media screen and (max-width: 675px){
+
+        @media screen and (max-width: 675px) {
             display: none;
         }
     }
