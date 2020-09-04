@@ -148,6 +148,12 @@ body {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .preamble {
+    padding: 7em 40px !important;
+  }
+}
+
 .preamble h3 {
   margin-bottom: 20px;
   font-family: Montserrat;
@@ -170,6 +176,12 @@ body {
 @media screen and (max-width: 1160px) {
   .preamble p {
     width: calc(100% - 80px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .preamble p {
+    width: 100% !important;
   }
 }
 

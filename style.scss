@@ -128,7 +128,9 @@ body {
     @media screen and (max-width: 1160px) {
         padding: 7em 20px 12em 80px;
     }
-
+    @media screen and (max-width: 500px) {
+        padding: 7em 40px !important;
+    }
     h3 {
         margin-bottom: 20px;
         font-family: Montserrat;
@@ -149,6 +151,9 @@ body {
 
         @media screen and (max-width: 1160px) {
             width: calc(100% - 80px);
+        }
+        @media screen and (max-width: 500px) {
+            width: 100% !important;
         }
     }
 
