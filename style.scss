@@ -47,7 +47,10 @@ body {
             line-height: 70px;
             color: #191919;
             padding: 3.1em 0.5em 0 0.5em;
-
+            @media screen and (min-width: 1700px) {
+                font-size: 6rem;
+                line-height: 100px;
+            }
             @media screen and (max-width: 1160px) {
                 width: 100%;
                 padding: 80px 40px;
