@@ -1,4 +1,5 @@
 # css-zen-garden-challenge
+[Live Demo](http://www.csszengarden.com/)
  The css zen garden challenge. Where, there is a template html that remains unchanged and an blank canvas of css. You can find more info about this challenge at: http://www.csszengarden.com/.
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
